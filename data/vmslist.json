@@ -1,0 +1,2701 @@
+{
+  "entities": [
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 8192,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "Nutanix-Clone-kado-WIN10-01",
+      "uuid": "f9fef8ec-20ed-47fb-b89e-1bbfa39fa05a",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "description": "\"VM migrated to 172.16.11.109 by 01-SG-BP-W-USER on Thu Apr 26 05:20:39 UTC 2018 by xtract-vm 1.1.4\"",
+      "num_vcpus": 1,
+      "name": "SG-BP-W-USER-113",
+      "uuid": "fcdd422b-dac6-479c-89ef-2e19018c80b5",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "W10-VDI-02",
+      "uuid": "fcefbe91-de02-438f-8ac5-de6edf0261a8",
+      "vm_logical_timestamp": 6
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "TMPL-WIN10",
+      "uuid": "fdfdb4b8-8cd1-4363-9b6c-3eb408e1143a",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "APACHE_PHP1",
+      "uuid": "d28d050d-e7b9-4821-9546-7b2d39ea9af6",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "description": "\"VM migrated to 172.16.11.109 by 04-SG-NOBP-WO-USER on Thu Apr 26 05:21:09 UTC 2018 by xtract-vm 1.1.4\"",
+      "num_vcpus": 1,
+      "name": "SG-NOBP-WO-USER-113",
+      "uuid": "d4318c2c-616d-49c2-82db-6627c36f0455",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "00ce7f50-e0e5-493a-9356-1dc6352fcaec",
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "NTNX_diagnostics_29991-8-0",
+      "uuid": "d6e9f547-ddd3-4923-a076-105ae7920678",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "MYSQL",
+      "uuid": "d73f5145-41a3-4ad5-9974-295fda7622be",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "MS-APACHE_PHP0",
+      "uuid": "dbef962b-a52f-46a3-b510-d97fb0e4ac11",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "kado_win7-0103",
+      "uuid": "d84af73c-f0a9-449c-be0a-94aaacedb017",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "description": "\"VM migrated to 172.16.11.109 by 04-SG-NOBP-WO-USER on Thu Apr 26 05:47:14 UTC 2018 by xtract-vm 1.1.3\\n\\nVM migrated to 172.16.11.109 by 04-SG-NOBP-WO-USER on Thu Apr 26 05:21:09 UTC 2018 by xtract-vm 1.1.4\"",
+      "num_vcpus": 1,
+      "name": "004-SG-NOBP-WO-USER",
+      "uuid": "df7af89d-de7a-4536-bd66-3ab26ff0a6e1",
+      "vm_logical_timestamp": 2
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "K8SM1",
+      "uuid": "dca280a0-7651-4542-9684-ebc4ec7bf6cb",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "natsumexd002",
+      "uuid": "dcd30e71-15c6-48a5-be9f-ddd48f568a7e",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "00ce7f50-e0e5-493a-9356-1dc6352fcaec",
+      "allow_live_migrate": true,
+      "description": "Data mover VM",
+      "num_vcpus": 1,
+      "name": "SG-TEMPLATE",
+      "uuid": "dd6ec34b-ceee-4c6b-a25e-e5340219b3ca",
+      "vm_logical_timestamp": 2
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 8192,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "00ce7f50-e0e5-493a-9356-1dc6352fcaec",
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "smzk-bench",
+      "uuid": "debc183d-b259-4de0-a3bf-c1d53f419ce6",
+      "vm_logical_timestamp": 8
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "K8SC",
+      "uuid": "e1c30a53-6c2e-44a4-8199-a4e5cde08443",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "Nutanix-Clone-kado-WIN7-01",
+      "uuid": "e4fbc62d-c6fc-418a-b470-57209c642d90",
+      "vm_logical_timestamp": 6
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "description": "Data mover VM",
+      "num_vcpus": 1,
+      "name": "SG-BP-WO-USER",
+      "uuid": "e8e06b01-eaf0-4f22-b669-d1a5e6ff10fa",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "Asia/Tokyo",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "afs_api_test",
+      "uuid": "ef412a44-9f9c-4f2a-923e-958a453f0614",
+      "vm_logical_timestamp": 2
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "APACHE_PHP0",
+      "uuid": "f7f83969-e782-45cc-9b91-1e3482854334",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "MYSQL",
+      "uuid": "f6fb4105-c069-4045-a168-59f8c8d90b92",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "MS-APACHE_PHP1",
+      "uuid": "07b845bb-648d-481e-99e2-1d1df8019a3e",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "MS-WIN-CLIENT02",
+      "uuid": "04851e3e-2ae1-41be-ad47-c39e5bd1f5fc",
+      "vm_logical_timestamp": 4
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "TEST-WIN-VLAN-A2",
+      "uuid": "06419e7c-8df0-489c-bc07-6962da1bf9b0",
+      "vm_logical_timestamp": 6
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "flow-test-db2",
+      "uuid": "0713c877-f0ff-4904-a099-14af4c23ca35",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "kado_win7-0105",
+      "uuid": "0fe8e0a1-28b8-4e90-b0fd-5d6d3bbbcdc5",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "kado-CENT7-01",
+      "uuid": "0d5b16da-9eac-4ae8-bef0-b2ff680088f1",
+      "vm_logical_timestamp": 7
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "description": "\"VM migrated to 172.16.11.109 by 03-SG-NOBP-W-USER on Thu Apr 26 05:20:58 UTC 2018 by xtract-vm 1.1.4\"",
+      "num_vcpus": 1,
+      "name": "SG-NOBP-W-USER-113",
+      "uuid": "0dcd04a6-7cfd-4c5c-9beb-f032ceb2e4da",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "00ce7f50-e0e5-493a-9356-1dc6352fcaec",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "flow-test-sales-win2",
+      "uuid": "134cff03-8fa6-4512-aa4a-6e05f05d8209",
+      "vm_logical_timestamp": 4
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "kado_win7-0109",
+      "uuid": "13b3e1dc-323d-4d5d-a08a-a21647682583",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "kado_win7-0104",
+      "uuid": "10441383-a558-4918-8f84-b442ff722f65",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "W10-VDI-01",
+      "uuid": "112f1b54-527e-44c6-891a-fc2e05b1f4a5",
+      "vm_logical_timestamp": 9
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 8192,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "natsume_Win2016_DDC",
+      "uuid": "12364fac-b014-4e00-8f95-44e75ae8e90c",
+      "vm_logical_timestamp": 12
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "W10-VDI-04",
+      "uuid": "17a8e8a0-96f1-4415-a7fa-67ec4d38f827",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "flow-test-web1",
+      "uuid": "1738d41c-f0d1-496e-a447-8674d06c9a45",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "HAPROXY",
+      "uuid": "184b2a8c-a9dc-4da3-9895-9433b073b652",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "kado_win7-03",
+      "uuid": "1d8503b6-e0fa-4eb2-a487-7ed58e56f106",
+      "vm_logical_timestamp": 4
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 1024,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "description": "\"VM migrated to 172.16.2.109 by MIN-PAT-BP-W-USER on Mon Apr  2 16:50:13 UTC 2018 by xtract-vm 1.1.3\"",
+      "num_vcpus": 1,
+      "name": "PAT-BP-W-USER",
+      "uuid": "23b9e1df-5ef0-45e4-96eb-c987224e6003",
+      "vm_logical_timestamp": 2
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "FS-AD-2002",
+      "uuid": "21097b66-3d69-4eae-afa5-e8763328b41e",
+      "vm_logical_timestamp": 14
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 1024,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "description": "\"VM migrated to 172.16.2.109 by MIN-PAT-NOBP-W-USER on Mon Apr  2 16:49:45 UTC 2018 by xtract-vm 1.1.3\"",
+      "num_vcpus": 1,
+      "name": "PAT-NOBP-W-USER",
+      "uuid": "217f6206-2941-4d8b-800c-c0e88230fc08",
+      "vm_logical_timestamp": 2
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "WIn10-0426-iwa1",
+      "uuid": "21df7554-ac94-4f18-ab87-3b89bae3a482",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 100,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 12288,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "NTNX-natsumeafs01-1",
+      "uuid": "24055e3c-025e-4376-a6ef-16788e486488",
+      "vm_logical_timestamp": 12
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 1024,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "00ce7f50-e0e5-493a-9356-1dc6352fcaec",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "ConnectorVM-2",
+      "uuid": "245e4752-bd4c-449f-8fbb-92e087092d30",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 5120,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "natsumexd1",
+      "uuid": "2bf174f1-4273-4be3-916e-9a3620c855f3",
+      "vm_logical_timestamp": 2
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "kado_win7-0110",
+      "uuid": "2cac30da-4a85-4c6b-aaf2-f66d188d93d4",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "Cassandra_VM",
+      "uuid": "2e589c20-759a-437d-aaf0-d9ccdaa70b8f",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "flow-test-app1",
+      "uuid": "2ee821d3-a758-4711-bde8-71842dcf7eeb",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "W10-MCS-GOLD",
+      "uuid": "302e3d66-5a2e-493e-b576-ce732cb37b3c",
+      "vm_logical_timestamp": 7
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "HAPROXY",
+      "uuid": "3090407d-2ad8-4e02-97c0-3550450b192e",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 1024,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "00ce7f50-e0e5-493a-9356-1dc6352fcaec",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "ConnectorVM-1",
+      "uuid": "34cbd2ae-e6ed-453c-9134-08ce375da81d",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "Cassandra_VM",
+      "uuid": "34d9a0ce-c1e6-4af5-a039-6ffa24825a08",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 41984,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "00ce7f50-e0e5-493a-9356-1dc6352fcaec",
+      "allow_live_migrate": true,
+      "description": "NutanixPrismCentral",
+      "num_vcpus": 8,
+      "name": "MNG-PRISM-CENTRAL",
+      "uuid": "3bc00d0a-7270-413f-9a33-19affc7ff7d9",
+      "vm_logical_timestamp": 8
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 8192,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "WIn2k16-iwa-0501",
+      "uuid": "38d32c6c-0056-4caa-8490-29ed7db24e48",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "kado_win2012R2-1",
+      "uuid": "3aff6210-4a84-472a-a9be-8b7ae1baa718",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "natsumexd003",
+      "uuid": "3db5dd70-a0fa-4a75-9f19-38b14c28c052",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "kado_win7-0108",
+      "uuid": "40e7b8b2-7a48-4cbe-b23b-eee16ff789e5",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 1024,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "description": "\"VM migrated to 172.16.2.109 by MIN-PAT-BP-WO-USER on Mon Apr  2 16:50:28 UTC 2018 by xtract-vm 1.1.3\"",
+      "num_vcpus": 1,
+      "name": "PAT-BP-WO-USER",
+      "uuid": "4158147b-3c80-4fb2-a87a-fcb695bd7d4a",
+      "vm_logical_timestamp": 2
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "kado_win7-02",
+      "uuid": "43056e0f-ccdf-4dfd-9774-b4eed95d02e7",
+      "vm_logical_timestamp": 4
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "description": "Data mover VM",
+      "num_vcpus": 1,
+      "name": "SG-NOBP-W-USER",
+      "uuid": "4748d243-9cae-42ac-a780-0d7a7f542d96",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "Foundation-4.0.1",
+      "uuid": "452593d1-31c6-4458-b0af-a241b5e15356",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "flow-test-dev-win1",
+      "uuid": "45fa9a99-9208-4bd1-90a8-e819f2fd0749",
+      "vm_logical_timestamp": 4
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "gpus_assigned": false,
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "description": "CentOs 6.9 base",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "xCOS69",
+      "uuid": "46facd33-7b2c-4119-b256-4127f439d3e4",
+      "vm_logical_timestamp": 4
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "00ce7f50-e0e5-493a-9356-1dc6352fcaec",
+      "allow_live_migrate": true,
+      "description": "\"VM migrated to 172.16.11.109 by 02-SG-BP-WO-USER on Thu Apr 26 05:20:48 UTC 2018 by xtract-vm 1.1.4\"",
+      "num_vcpus": 1,
+      "name": "SG-BP-WO-USER-113",
+      "uuid": "4ba78a5e-6948-4a56-ac3d-30fa70fd027c",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "K8SC",
+      "uuid": "48b65a78-1926-4088-ae74-f7d98916778a",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "MS-CENT-CLIENT02",
+      "uuid": "491b9945-be11-4ea2-8b41-9a37e558736b",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "FS-AD-2001",
+      "uuid": "5052bb14-e55b-4e00-ac44-8203f1e1d753",
+      "vm_logical_timestamp": 16
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 6144,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "natsume_Win2008r2_fromPoC12",
+      "uuid": "51127f5f-583b-4408-b811-b33451ef2aa1",
+      "vm_logical_timestamp": 8
+    },
+    {
+      "ha_priority": 100,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 12288,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "NTNX-FS2001-2",
+      "uuid": "522ca2c9-2731-4c66-bad8-db27c0bb0845",
+      "vm_logical_timestamp": 11
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "MYSQL",
+      "uuid": "525c6974-9b12-4baf-b60e-8e95ca20ed55",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "flow-test-web3",
+      "uuid": "5520efbb-06a1-4ca5-bb0d-75403fbf9ec4",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "description": "\"VM migrated to 172.16.11.109 by 01-SG-BP-USER on Thu Apr 26 05:45:29 UTC 2018 by xtract-vm 1.1.3\\n\\nVM migrated to 172.16.11.109 by 01-SG-BP-W-USER on Thu Apr 26 05:20:39 UTC 2018 by xtract-vm 1.1.4\"",
+      "num_vcpus": 1,
+      "name": "001-SG-BP-W-USER",
+      "uuid": "55fcfff5-1f76-409a-bef8-4c773edee806",
+      "vm_logical_timestamp": 2
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "APACHE_PHP0",
+      "uuid": "5ac56a95-82d8-4e7b-b8ee-ac182b3f0833",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "APACHE_PHP0",
+      "uuid": "5c9c99e8-f114-49d1-94a2-811e73d5a51d",
+      "vm_logical_timestamp": 6
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "Cassandra_VM",
+      "uuid": "5d888110-8860-4e0c-ab38-1fa753934169",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "00ce7f50-e0e5-493a-9356-1dc6352fcaec",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "flow-test-dev-win2",
+      "uuid": "60ba3f3c-d4f0-473a-b4b9-565c19b3e90a",
+      "vm_logical_timestamp": 4
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "description": "Data mover VM",
+      "num_vcpus": 1,
+      "name": "SG-BP-W-USER",
+      "uuid": "613fc0fd-0481-4cd9-a88d-0e4f327e4ade",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "W10-VDI-05",
+      "uuid": "64d78f4d-b54f-443e-a08e-0bb423dc8410",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 8192,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "Win2k16-iwa-05012",
+      "uuid": "65e07bfb-5b50-4a68-b4ef-2bcd627eee3c",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "HAPROXY",
+      "uuid": "6815e2be-6a01-4b33-ba94-72cd5bd317ba",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "MS-HAPROXY",
+      "uuid": "6893145c-9735-4362-97e4-a9f554045b61",
+      "vm_logical_timestamp": 6
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "NTNX_diagnostics_29991-6-0",
+      "uuid": "68f99bfb-5ade-4af8-8649-272f3cc06353",
+      "vm_logical_timestamp": 6
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "W10-VDI-03",
+      "uuid": "6af62af8-610b-4fa3-ba66-b51a8c4563df",
+      "vm_logical_timestamp": 4
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "Cassandra_VM",
+      "uuid": "6fd4c652-3506-46da-a598-e0eda02ad8e9",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "MS-CENT-CLIENT01",
+      "uuid": "7130b64e-f933-4d22-ad78-be5fd0ac20ea",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "win10-2020",
+      "uuid": "7274b4df-c7ed-4c51-9950-9b96b809fc6d",
+      "vm_logical_timestamp": 11
+    },
+    {
+      "ha_priority": 100,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 12288,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "00ce7f50-e0e5-493a-9356-1dc6352fcaec",
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "NTNX-FS2001-3",
+      "uuid": "77408a2b-4c43-4fc1-bd6a-9f13a30320e6",
+      "vm_logical_timestamp": 11
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "kado_win7-0107",
+      "uuid": "77835ad3-d847-4a2c-846a-35413ab75827",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "Asia/Tokyo",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "natsume-win10-apr1",
+      "uuid": "74a8f9ac-a3d0-4e0b-b6a3-77e7b2594784",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "TMPL-CENT7",
+      "uuid": "76cbdcad-ea89-4d6d-b20b-ae85f19998f6",
+      "vm_logical_timestamp": 2
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 1024,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "akio-aaa",
+      "uuid": "7a7d03bc-ed7a-42ff-8245-ca8fe375b4df",
+      "vm_logical_timestamp": 2
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 1024,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "description": "\"VM migrated to 172.16.2.109 by MIN-PAT-NOBP-WO-USER on Mon Apr  2 16:50:09 UTC 2018 by xtract-vm 1.1.3\"",
+      "num_vcpus": 1,
+      "name": "PAT-NOBP-WO-USER",
+      "uuid": "7c34a6e8-f289-4b22-8a86-8aaade3e929a",
+      "vm_logical_timestamp": 2
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 8192,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "clone_natsume_Win2016_template",
+      "uuid": "7c388a25-49a0-43c8-96bd-641b6e71b64e",
+      "vm_logical_timestamp": 2
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "Asia/Tokyo",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "natsume-win10-apr",
+      "uuid": "7e5dfafa-11a0-43d7-b807-bb6216b7b334",
+      "vm_logical_timestamp": 28
+    },
+    {
+      "ha_priority": 100,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 12288,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "00ce7f50-e0e5-493a-9356-1dc6352fcaec",
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "NTNX-FS2002-3",
+      "uuid": "80bd69cb-0ea8-47ab-9ddf-a1fa8a513078",
+      "vm_logical_timestamp": 11
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "description": "Data mover VM",
+      "num_vcpus": 1,
+      "name": "SG-NOBP-WO-USER",
+      "uuid": "8108b02e-ae0a-482f-a861-3384eebf5529",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "kado_win7-0102",
+      "uuid": "81640b09-b0ad-4724-a416-e8b9a219861b",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "APACHE_PHP1",
+      "uuid": "82721428-b45f-4723-abe7-943ad3bab7a1",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "flow-test-other-win1",
+      "uuid": "87afe0bc-2c49-4cf1-8395-9198447ceda9",
+      "vm_logical_timestamp": 2
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "affinity": {
+        "policy": "AFFINITY",
+        "host_uuids": [
+          "74d5a350-6195-4b00-8e2e-27ce7d0127c1",
+          "87bbcf7a-2370-47a9-b63c-549bdac05505",
+          "3766ce2c-92bd-4274-9b9f-9e35c35fae24",
+          "2d06d543-438c-4b33-8500-bf6a930a1d69"
+        ]
+      },
+      "allow_live_migrate": true,
+      "description": "CentOs 6.9 base",
+      "num_vcpus": 2,
+      "name": "xPOC8_xCOS69-000",
+      "uuid": "8b558d42-f1b7-44e3-9f65-13a6ba0915c9",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 8192,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "natsume_Win2016_AD",
+      "uuid": "8804cf3b-5b46-45fe-a1e3-6fb14423f902",
+      "vm_logical_timestamp": 14
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "MS-MYSQL",
+      "uuid": "89341c7d-5dfb-4d98-8d44-2e4f4d43af82",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "natsumexd001",
+      "uuid": "89f5fa57-c4cd-4cb0-9a22-b8ad2216cfb8",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "kado_win7-0106",
+      "uuid": "8e271994-fb3b-498e-9c25-0fb509a93d48",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "affinity": {
+        "policy": "AFFINITY",
+        "host_uuids": [
+          "74d5a350-6195-4b00-8e2e-27ce7d0127c1",
+          "3766ce2c-92bd-4274-9b9f-9e35c35fae24"
+        ]
+      },
+      "allow_live_migrate": true,
+      "description": "CentOs 6.9 base",
+      "num_vcpus": 2,
+      "name": "xPOC8_xREST-1",
+      "uuid": "8ee995c4-4e33-4d8a-a202-72c106028bb9",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "MS-WIN-CLIENT01",
+      "uuid": "9038205f-a234-41b7-b4b3-f1957cbde855",
+      "vm_logical_timestamp": 4
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "smzk-template-W12R2",
+      "uuid": "92f9b619-4c6b-451d-9413-ab905fdc612e",
+      "vm_logical_timestamp": 22
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "flow-test-web2",
+      "uuid": "9be702c2-9862-4610-98aa-911cb39ff50b",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "APACHE_PHP1",
+      "uuid": "9991d76a-0e52-4843-9fbb-2d6c7fb4bf80",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "TMPL-WIN2016",
+      "uuid": "99a11d68-b34c-451e-b4ad-a084f0d4cc40",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "flow-test-db1",
+      "uuid": "9fe98a2d-a8c1-4bf6-8fc0-386128ec9985",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "MS-CENT-CLIENT03",
+      "uuid": "9c6671a2-7583-41e4-a56e-8079cf93fd47",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": -1,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "Asia/Tokyo",
+      "vm_features": {
+        "AGENT_VM": true,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": false,
+      "num_vcpus": 2,
+      "name": "XTRACTVM-113",
+      "uuid": "9c76f929-29e3-4806-9197-a8ec25b2a874",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "HAPROXY",
+      "uuid": "9d2e8238-025e-465b-8388-e87946965927",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 100,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 12288,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "NTNX-FS2001-1",
+      "uuid": "9eb24919-97ce-4b31-878d-5d3559f08f57",
+      "vm_logical_timestamp": 11
+    },
+    {
+      "ha_priority": 100,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 12288,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "NTNX-FS2002-2",
+      "uuid": "a0dd8895-297b-411e-9ac5-3797786c666d",
+      "vm_logical_timestamp": 11
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "WIN-TEST",
+      "uuid": "a25dbd89-efcf-4ae9-8140-cbf1ea4781a6",
+      "vm_logical_timestamp": 14
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "kado_win7-01",
+      "uuid": "a4a097a5-8341-496a-bec0-35ea6a869c63",
+      "vm_logical_timestamp": 12
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "APACHE_PHP0",
+      "uuid": "a6369b77-ecbd-451d-b7f6-1b4ba084d56c",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "MS-CENT-CLIENT04",
+      "uuid": "a64a43f3-58f0-4203-82ee-59cf5cbb3d96",
+      "vm_logical_timestamp": 6
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "description": "\"VM migrated to 172.16.11.109 by 02-SG-BP-WO-USER on Thu Apr 26 05:46:27 UTC 2018 by xtract-vm 1.1.3\\n\\nVM migrated to 172.16.11.109 by 02-SG-BP-WO-USER on Thu Apr 26 05:20:48 UTC 2018 by xtract-vm 1.1.4\"",
+      "num_vcpus": 1,
+      "name": "002-SG-BP-WO-USER",
+      "uuid": "a96c59f5-7dd9-4d3c-8e48-5064aeeb4a3f",
+      "vm_logical_timestamp": 2
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "TEST-WIN-VLAN-A1",
+      "uuid": "ab23affe-092d-4ee9-b2b4-f0d8d16cbb61",
+      "vm_logical_timestamp": 6
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "K8SM1",
+      "uuid": "ac283b09-f49d-4867-ba97-a7e22e939e41",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 100,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 12288,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "NTNX-FS2002-1",
+      "uuid": "ad4b27af-e327-48c0-9754-af64d0a602ce",
+      "vm_logical_timestamp": 12
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "00ce7f50-e0e5-493a-9356-1dc6352fcaec",
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "K8SM0",
+      "uuid": "b25aec17-f2a6-435a-97d2-a1e1e06a4075",
+      "vm_logical_timestamp": 6
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "NTNX_diagnostics_29991-7-0",
+      "uuid": "b2e12ea3-4007-4b7b-9041-e16c27cbb1e9",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 100,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 12288,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "00ce7f50-e0e5-493a-9356-1dc6352fcaec",
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "NTNX-natsumeafs01-3",
+      "uuid": "b4d960b1-3176-4e23-9715-4716af818b8d",
+      "vm_logical_timestamp": 11
+    },
+    {
+      "ha_priority": 100,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 12288,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "NTNX-natsumeafs01-2",
+      "uuid": "b5a935c1-5900-44bd-b0ba-8a70886c6596",
+      "vm_logical_timestamp": 11
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "APACHE_PHP1",
+      "uuid": "bbc03422-39c4-4d2f-aadf-c2c50849df7e",
+      "vm_logical_timestamp": 3
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "natsume_CentOS7_fromPoC12",
+      "uuid": "b8fc828d-4930-42ac-a189-9aaa2b9c6e65",
+      "vm_logical_timestamp": 8
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": true,
+      "description": "\"VM migrated to 172.16.11.109 by 02-SG-NOBP-W-USER on Thu Apr 26 05:46:33 UTC 2018 by xtract-vm 1.1.3\\n\\nVM migrated to 172.16.11.109 by 03-SG-NOBP-W-USER on Thu Apr 26 05:20:58 UTC 2018 by xtract-vm 1.1.4\"",
+      "num_vcpus": 1,
+      "name": "003-SG-NOBP-W-USER",
+      "uuid": "ba6b6cfb-2966-4dab-813b-87c9c8e0daf4",
+      "vm_logical_timestamp": 2
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "flow-test-app2",
+      "uuid": "bc0e2f0a-40ac-4633-8014-d8b8e09afd29",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 4,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "flow-test-sales-win1",
+      "uuid": "bd96a740-d0cc-444a-a99c-23d01db26a37",
+      "vm_logical_timestamp": 4
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "NTNX_diagnostics_29991-9-0",
+      "uuid": "be1a9d80-9d83-4a48-a26c-bf9e88b2c1ef",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "xPOC8_AVM001",
+      "uuid": "c45ce2e6-dd1d-41c5-9f61-7b2257971dc5",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 1,
+      "name": "kado_win7-0101",
+      "uuid": "c4ebda13-e880-45cd-a650-083c87fe171f",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": -1,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 4096,
+      "timezone": "Asia/Tokyo",
+      "vm_features": {
+        "AGENT_VM": true,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "7d8e0a87-c72d-42e6-845d-04e44d77274d",
+      "allow_live_migrate": false,
+      "num_vcpus": 2,
+      "name": "XTRACTVM-114",
+      "uuid": "c72a4fd5-1578-4e77-8cb3-c3d0f61f2c3b",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 4096,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "b46ee746-9d2a-4705-9d3f-3aaab760a455",
+      "allow_live_migrate": true,
+      "boot": {
+        "boot_device_type": "disk",
+        "disk_address": {
+          "device_bus": "scsi",
+          "device_index": 0
+        }
+      },
+      "num_vcpus": 2,
+      "name": "MYSQL",
+      "uuid": "cb5ef80d-eea8-4507-9a23-d495744a8a1a",
+      "vm_logical_timestamp": 5
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 8192,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 4,
+      "name": "natsume_Win2016_template",
+      "uuid": "c85c8507-0664-412f-9c32-b237b3bcd040",
+      "vm_logical_timestamp": 1
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "off",
+      "num_cores_per_vcpu": 1,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "xUbuntu",
+      "uuid": "cd9b4b6b-f57e-4f8a-915d-afa0e88554f9",
+      "vm_logical_timestamp": 4
+    },
+    {
+      "ha_priority": 0,
+      "power_state": "on",
+      "num_cores_per_vcpu": 2,
+      "memory_mb": 2048,
+      "timezone": "UTC",
+      "vm_features": {
+        "AGENT_VM": false,
+        "VGA_CONSOLE": true
+      },
+      "gpus_assigned": false,
+      "host_uuid": "ddc3603f-816f-46b0-97f1-29bb0e30c86e",
+      "allow_live_migrate": true,
+      "num_vcpus": 2,
+      "name": "K8SM0",
+      "uuid": "cf243d20-7ef2-4adf-a3c4-0a35b20e3d18",
+      "vm_logical_timestamp": 3
+    }
+  ],
+  "metadata": {
+    "total_entities": 0,
+    "count": 140,
+    "grand_total_entities": 140
+  }
+}

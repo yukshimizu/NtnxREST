@@ -1,0 +1,120 @@
+{
+  "entities": [
+    {
+      "uuid": "ff7c73b7-7b1a-4d31-9c9b-082da84c6495",
+      "name": "vlan.110-mng",
+      "logical_timestamp": 14,
+      "vlan_id": 110,
+      "ip_config": {
+        "prefix_length": 24,
+        "pool": [
+          {
+            "range": "172.16.110.10 172.16.110.249"
+          }
+        ],
+        "network_address": "172.16.110.0",
+        "default_gateway": "172.16.110.1",
+        "dhcp_options": {},
+        "dhcp_server_address": "172.16.110.254"
+      }
+    },
+    {
+      "uuid": "ee858c25-c94b-4789-b8b5-70874cb98fc3",
+      "name": "vlan.0-mng",
+      "logical_timestamp": 281,
+      "vlan_id": 0,
+      "ip_config": {
+        "prefix_length": 16,
+        "pool": [
+          {
+            "range": "172.16.11.120 172.16.11.249"
+          }
+        ],
+        "network_address": "172.16.0.0",
+        "default_gateway": "172.16.0.5",
+        "dhcp_options": {
+          "domain_name_servers": "172.16.254.65, 172.16.254.66",
+          "domain_name": "nutanixjp.local"
+        },
+        "dhcp_server_address": "172.16.255.254"
+      }
+    },
+    {
+      "uuid": "f7d1dcc5-d36e-4282-875e-50c13c848603",
+      "name": "vlan.3738",
+      "logical_timestamp": 6,
+      "vlan_id": 3738,
+      "ip_config": {
+        "dhcp_options": {},
+        "prefix_length": 0,
+        "pool": []
+      }
+    },
+    {
+      "uuid": "1a822c88-2e4f-48c6-afed-9d4ddf2aca5f",
+      "name": "vlan.3735",
+      "logical_timestamp": 1,
+      "vlan_id": 3735,
+      "ip_config": {
+        "dhcp_options": {},
+        "prefix_length": 0,
+        "pool": []
+      }
+    },
+    {
+      "uuid": "80e78ab2-6a9e-42e3-a962-d290df593137",
+      "name": "vlan-A",
+      "logical_timestamp": 20,
+      "vlan_id": 2001,
+      "ip_config": {
+        "prefix_length": 24,
+        "pool": [
+          {
+            "range": "192.168.0.20 192.168.0.249"
+          }
+        ],
+        "network_address": "192.168.0.0",
+        "default_gateway": "192.168.0.1",
+        "dhcp_options": {
+          "domain_name_servers": "192.168.0.10"
+        },
+        "dhcp_server_address": "192.168.0.254"
+      }
+    },
+    {
+      "uuid": "90ce18dd-fd8c-4e00-8d49-55258b3a04da",
+      "name": "vlan-B",
+      "logical_timestamp": 8,
+      "vlan_id": 2002,
+      "ip_config": {
+        "prefix_length": 24,
+        "pool": [
+          {
+            "range": "192.168.0.20 192.168.0.249"
+          }
+        ],
+        "network_address": "192.168.0.0",
+        "default_gateway": "192.168.0.1",
+        "dhcp_options": {
+          "domain_name_servers": "192.168.0.10"
+        },
+        "dhcp_server_address": "192.168.0.254"
+      }
+    },
+    {
+      "uuid": "99e7f169-a32f-4737-ac61-d5b0ff75173b",
+      "name": "vlan.0",
+      "logical_timestamp": 193,
+      "vlan_id": 0,
+      "ip_config": {
+        "dhcp_options": {},
+        "prefix_length": 0,
+        "pool": []
+      }
+    }
+  ],
+  "metadata": {
+    "total_entities": 7,
+    "grand_total_entities": 7
+  }
+}
